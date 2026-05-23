@@ -51,3 +51,5 @@ version: formal-01
 #the minimum game build required to run this mod
 minGameVersion: 154
 
+repo: ZenthXSin/UnitLaunchPad
+
