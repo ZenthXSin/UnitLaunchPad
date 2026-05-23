@@ -1,0 +1,53 @@
+#the mod name as displayed in-game
+displayName: "Unit launch pad"
+
+#the internal name of your mod
+name: "单位发射台"
+
+#your name
+author: "ZenXSin"
+
+#the fully qualified main class of the mod
+main: "example.ExampleKotlinMod"
+#main: "example.world.other.ExampleMod"
+
+#the mod description as seen in the mod dialog
+description: "实现了一个可以跨星球/区块传送单位的建筑，启用了旧版发射台\n代码编写：@ZenXSin\n贴图制作：@花杨永瀛\n由@一得阁拉米委托\n灵感来源：@原我心依旧如初
+
+alpha-02:
+修复无法正常发射的问题
+修复状态显示不正常的问题
+修复星球选择为oh no的问题
+修复消耗器无法正常工作的问题
+修复单位无限复制的问题
+
+alpha-03:
+[red]新增所有s星单位都可以在e星生成
+调整了音效
+
+alpha-04:
+完善了状态的读写
+修复了在使用科技树透视时可能出现的闪退问题
+修改了一些贴图
+修复新版单位无限复制的问题
+[red]增加单位大小判断，过大无法进入发射台
+修复了可进入载荷的判断错误
+修复未满足消耗但是正在构建时构建动画突然消失的问题
+增加建筑详细页的默认发射区块设置
+
+alpha-05:
+平衡了一定数值
+新增e星版单位发射台
+原版发射台支持多星球选择
+
+formal-01：
+修复了跨星球发射时单位消失问题
+修复了使用科技树透视时的闪退问题
+"
+
+#the mod version
+version: formal-01
+
+#the minimum game build required to run this mod
+minGameVersion: 154
+
